@@ -1,0 +1,31 @@
+{
+  "name": "node_user",
+  "version": "1.0.0",
+  "description": "Teste do NodeJS",
+  "main": "index.js",
+  "dependencies": {
+    "body-parse": "^0.1.0",
+    "body-parser": "^1.20.0",
+    "express": "^4.17.3",
+    "mariadb": "^3.0.0",
+    "moment": "^2.29.2",
+    "mysql2": "^2.3.3",
+    "path": "^0.12.7",
+    "sequelize": "^6.18.0",
+    "sequelize-cli": "^6.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ebrea/Node.git"
+  },
+  "author": "Eber Brea",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ebrea/Node/issues"
+  },
+  "homepage": "https://github.com/ebrea/Node#readme"
+}

@@ -1,0 +1,32 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="./css/style.css">
+
+    <script src= "./index.js" ></script>
+
+</head>
+<body>
+    <h1>Formulário</h1>
+
+    <form name="dados" class="formulario" action="http://127.0.0.1:3000/form" method="POST">
+        <fieldset>
+            <label><input type="radio" name="opcao" value="consultar" checked>Consultar</label>
+            <label><input type="radio" name="opcao" value="inserir">Inserir</label>      
+            <label><input type="radio" name="opcao" value="deletar">Deletar</label>
+        </fieldset>
+        
+        <label>Registro:<input type="number" name="id"></label>
+        <label>Nome:<input type="text" name="nome"></label>       
+        <label>Email:<input type="email" name="email"></label>
+        <label>Nascimento:<input type="date" name="nascimento"></label>       
+        <label>Mensagem:<textarea rows="5" cols='30' name="mensagem"></textarea></label>        
+      
+        <input id="botao" type="submit" value="Enviar solicitação" onclick="tabela()"/>
+
+    </form>
+
+</body>
+</html>
